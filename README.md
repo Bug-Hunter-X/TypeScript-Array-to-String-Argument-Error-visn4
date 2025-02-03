@@ -1,0 +1,3 @@
+# TypeScript Array to String Argument Error
+
+This example demonstrates a common TypeScript error where an array is passed to a function expecting a single string. The `greeter` function expects a single string, but an array of strings is passed as an argument which results in a type error. The solution shows how to correctly handle this by either joining the array into a single string or modifying the function signature to accept an array.
